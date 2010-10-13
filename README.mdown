@@ -1,0 +1,11 @@
+# jQuery.plist
+# Synopsis
+
+`$.plist(xml)`
+
+# Description
+
+jQuery.plist deserializes a subset of Mac OS X XML property lists. The return
+value is generally what you would expect, although `<data>` nodes currently
+raise an exception. Uncommon cases such as property lists with a non-`<dict>`
+root object work correctly. Date parsing may not.
